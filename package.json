@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node mcp-server/index.js",
     "dev": "nodemon mcp-server/index.js",
+    "poc": "node poc/index.js",
     "test": "jest",
     "lint": "eslint ."
   },

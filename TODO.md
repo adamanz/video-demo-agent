@@ -1,24 +1,30 @@
 # Video Demo Agent - TODO & Roadmap
 
-## Immediate Tasks (Week 1)
+## POC Phase (2-4 Hours) ✨ NEW PRIORITY
 
-- [ ] Set up development environment
-  - [ ] Install Claude Code CLI
-  - [ ] Configure MCP in Claude Desktop
-  - [ ] Create Browserbase account
-  - [ ] Set up GCP project for Gemini AI
+- [ ] Test Parser Implementation
+  - [ ] Find test files in repository
+  - [ ] Extract Playwright test steps
+  - [ ] Extract Cypress test steps
+  - [ ] Convert to action sequence
 
-- [ ] Create basic MCP server
-  - [ ] Initialize TypeScript project
-  - [ ] Implement GitHub tool
-  - [ ] Add Browserbase SDK integration
-  - [ ] Set up Gemini AI client
+- [ ] Browserbase Integration
+  - [ ] Connect via MCP in Claude Desktop
+  - [ ] Run test steps on deployed URL
+  - [ ] Retrieve session recording
+  - [ ] Handle errors gracefully
 
-- [ ] Implement Browserbase integration
-  - [ ] Session creation and management
-  - [ ] Playwright connection setup
-  - [ ] Recording retrieval API
-  - [ ] Basic rrweb player setup
+- [ ] Basic Video Export
+  - [ ] Get recording from Browserbase
+  - [ ] Simple rrweb to MP4 conversion
+  - [ ] No zoom or editing (POC)
+  - [ ] Save to local file
+
+- [ ] Minimal Social Posts
+  - [ ] Use Gemini to generate posts
+  - [ ] Create LinkedIn draft
+  - [ ] Create X/Twitter draft
+  - [ ] Manual posting (POC)
 
 ## Phase 1: MVP (Weeks 2-3)
 
