@@ -1,0 +1,56 @@
+{
+  "name": "video-creator",
+  "description": "MCP server for automated demo video creation",
+  "version": "0.1.0",
+  "tools": [
+    {
+      "name": "analyze-repo",
+      "description": "Analyze a GitHub repository structure",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "owner": { "type": "string" },
+          "repo": { "type": "string" }
+        },
+        "required": ["owner", "repo"]
+      }
+    },
+    {
+      "name": "run-container",
+      "description": "Run application in Docker container",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "dockerfile": { "type": "string" },
+          "command": { "type": "string" }
+        },
+        "required": ["dockerfile"]
+      }
+    },
+    {
+      "name": "record-screen",
+      "description": "Record screen with FFmpeg",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "duration": { "type": "number" },
+          "output": { "type": "string" }
+        },
+        "required": ["duration"]
+      }
+    },
+    {
+      "name": "publish-video",
+      "description": "Publish video to social media",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "videoPath": { "type": "string" },
+          "platform": { "type": "string" },
+          "message": { "type": "string" }
+        },
+        "required": ["videoPath", "platform"]
+      }
+    }
+  ]
+}
