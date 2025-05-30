@@ -11,10 +11,16 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
+    "@browserbasehq/sdk": "^1.0.0",
+    "@google-cloud/vertexai": "^1.0.0",
+    "playwright-core": "^1.40.0",
     "fluent-ffmpeg": "^2.1.2",
-    "dockerode": "^4.0.0",
     "octokit": "^3.1.0",
     "twitter-api-v2": "^1.15.0",
+    "linkedin-api-client": "^1.0.0",
+    "rrweb-player": "^2.0.0",
+    "puppeteer": "^21.0.0",
+    "canvas": "^2.11.0",
     "dotenv": "^16.3.1",
     "winston": "^3.11.0",
     "zod": "^3.22.0"

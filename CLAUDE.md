@@ -11,10 +11,11 @@ I'm an automated agent that creates professional demo videos from GitHub reposit
 ## Core Capabilities
 - Analyze GitHub repositories to understand project structure
 - Generate compelling demo scripts automatically
-- Run applications safely in Docker containers
-- Record screen with intelligent zoom decisions
-- Post-process videos with effects and narration
-- Publish to X/Twitter and other platforms
+- Run applications safely using Browserbase cloud browsers
+- Record screens automatically with session replay
+- Apply intelligent zoom in post-processing
+- Convert recordings to video format
+- Publish to LinkedIn and X/Twitter
 
 ## Workflow Commands
 
@@ -47,9 +48,9 @@ Publish completed video to social platforms
 ### MCP Servers
 - `video-creator`: Main orchestration server
 - `github`: Repository analysis
-- `docker`: Safe code execution
-- `ffmpeg`: Screen recording and processing
-- `twitter`: Social media posting
+- `browserbase`: Cloud browser recording
+- `gemini`: AI analysis and content generation
+- `social`: LinkedIn and X/Twitter posting
 
 ### Security Policies
 - All API keys stored in environment variables

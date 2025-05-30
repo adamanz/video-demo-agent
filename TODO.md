@@ -5,40 +5,40 @@
 - [ ] Set up development environment
   - [ ] Install Claude Code CLI
   - [ ] Configure MCP in Claude Desktop
-  - [ ] Set up Docker with gVisor
-  - [ ] Install FFmpeg and Node.js
+  - [ ] Create Browserbase account
+  - [ ] Set up GCP project for Gemini AI
 
 - [ ] Create basic MCP server
   - [ ] Initialize TypeScript project
   - [ ] Implement GitHub tool
-  - [ ] Add Docker integration
-  - [ ] Create FFmpeg wrapper
+  - [ ] Add Browserbase SDK integration
+  - [ ] Set up Gemini AI client
 
-- [ ] Implement security foundation
-  - [ ] Environment variable management
-  - [ ] API key vault integration
-  - [ ] Docker security policies
-  - [ ] Rate limiting setup
+- [ ] Implement Browserbase integration
+  - [ ] Session creation and management
+  - [ ] Playwright connection setup
+  - [ ] Recording retrieval API
+  - [ ] Basic rrweb player setup
 
 ## Phase 1: MVP (Weeks 2-3)
 
-- [ ] Repository analysis agent
-  - [ ] Parse package.json/requirements.txt
-  - [ ] Detect project type
-  - [ ] Find entry points
-  - [ ] Generate basic script
+- [ ] Repository analysis with Gemini
+  - [ ] Parse repository structure
+  - [ ] Generate demo scripts
+  - [ ] Identify key features
+  - [ ] Create zoom point suggestions
 
-- [ ] Screen recording pipeline
-  - [ ] FFmpeg recording function
-  - [ ] Basic zoom implementation
-  - [ ] Video trimming
-  - [ ] MP4 optimization
+- [ ] Browserbase recording pipeline
+  - [ ] Run demo apps in cloud browser
+  - [ ] Execute scripted actions
+  - [ ] Retrieve session recordings
+  - [ ] Handle errors gracefully
 
-- [ ] Docker execution
-  - [ ] Dockerfile generation
-  - [ ] Container lifecycle management
-  - [ ] Port forwarding
-  - [ ] Health checks
+- [ ] rrweb to video conversion
+  - [ ] Implement frame extraction
+  - [ ] FFmpeg video generation
+  - [ ] Apply zoom transformations
+  - [ ] Optimize output quality
 
 ## Phase 2: Intelligence (Weeks 4-5)
 
