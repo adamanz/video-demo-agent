@@ -2,6 +2,10 @@
 
 Automated demo video creation agent powered by Claude Code and MCP. Creates compelling technical demos from GitHub repositories with intelligent screen recording and social media publishing.
 
+## 🚀 Quick Start
+
+**→ [START HERE](./START_HERE.md) ← Build the POC in 2-4 hours!**
+
 ## Features
 
 - 🤖 **Intelligent Analysis**: Automatically understands your project structure
